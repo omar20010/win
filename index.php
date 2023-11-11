@@ -13,13 +13,13 @@ include "./inc/db_close.php";
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
     <div class="col-md-6 p-lg-5 mx-auto">
         <img src="./images/IMG_0374.jpg55" alt="">
-        <h1 class="display-4 fw-bold">اربح معنا</h1>
+        <h1 style="color: red;" class="display-4 fw-bold">اربح معنا</h1>
         <p class="fw-normal text-muted mb-3">باقي على فتح التسجيل</p>
         <h3 id="countdown"></h3>
         <p class="fw-normal text-muted mb-3">للسحب على ربح نسخة مجانية</p>
     </div>
     <ul class="list-group list-group-flush">
-        <h3>للدخول على السحب يرجى اتباع ما يلي :</h3>
+        <h3 >للدخول على السحب يرجى اتباع ما يلي :</h3>
             <li class="list-group-item">تابع البث المباشر على صفحتي على يوتيوب</li>
             <li class="list-group-item">سأقوم ببث لمدة ساعة للإجابة عن اسئلتكم</li>
             <li class="list-group-item">خلال فترة البث سيتم اتاحة التسجيل وكتابة اسماءكم وايملاتكم</li>
@@ -56,7 +56,7 @@ include "./inc/db_close.php";
                     <?php echo $error["emailError"]; ?>
                 </div>
             </div>
-            <button type="submit" name="submit" class="btn btn-primary">ارسال المعلومات</button>
+            <button style="color :forestgreen ;" type="submit" name="submit" class="btn btn-primary">ارسال المعلومات</button>
         </form>
     </div>
 </div>
